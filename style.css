@@ -49,8 +49,9 @@ body{
   height: 100vh;
     background-image:
     linear-gradient(
-      rgba(18, 59, 140, 0.15),
-      rgba(18, 59,144, 0.15)
+      rgba(13, 45, 100, 0.20),
+      rgba(25, 75,145, 0.13),
+      rgba(255, 255,255, 0.05)
     ),
     url('./images/AC4CAE6E-F2B1-46A5-B121-B4AD1A3C7993.PNG');
 
@@ -1528,7 +1529,7 @@ footer{
 .hero-description {
  color: #18253a;
   font-size: 1.4rem;
-  width: 27rem;
+  width: 24rem;
   font-weight: 500;
   margin-bottom: 2rem;
 }
@@ -1566,7 +1567,7 @@ footer{
 }
 
 .stats-description{
-  font-size: 1rem;
+  font-size: 0.8rem;
   width: 1.8rem;
 }
   
@@ -1574,7 +1575,7 @@ footer{
 .about-grid-2-cols{
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 3.2rem;
 }
 
 
@@ -1603,7 +1604,7 @@ footer{
 display: block;
 width: fit-content;
 margin: 0 auto;
-margin-bottom: 3.2rem;
+margin-bottom: 4.8rem;
 font-size: 1.6rem;
 }
 
@@ -1816,7 +1817,7 @@ font-size: 1.6rem;
 }
 
 .footer-contact a{
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 }
 
