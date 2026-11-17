@@ -150,7 +150,7 @@ body{
 }
 
 .hero-cta{
-  margin-bottom: 3.2rem;
+  margin-bottom: 2.8rem;
 }
 
 .btn{
@@ -239,6 +239,11 @@ outline-offset: -1px;
   color: #023690;;
   font-weight: 600;
   margin: 2px 0 0;
+}
+
+.stats-divider{
+  font-size: 23px;
+  color:  #5f87cc;
 }
 
 main{
