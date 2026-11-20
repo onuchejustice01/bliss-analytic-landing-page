@@ -213,7 +213,7 @@ outline-offset: -1px;
 }
 .hero-stats{
   display: flex;
-  gap: 2.4rem;
+  gap: 2rem;
 }
 
 .hero-stats-logo{
@@ -244,7 +244,7 @@ outline-offset: -1px;
 
 .stats-divider{
   font-size: 23px;
-  color:  #5f87cc;
+  color:#6c9bee;
 }
 
 main{
@@ -1639,6 +1639,7 @@ transition: 0.3s ease, color 0.3s ease;
   align-items: flex-start;
   gap: 1.2rem;
   margin-top: 1.4rem;
+  margin-bottom: 6.8rem;
 }
   .hero-cta .btn {
   display: inline-flex;
@@ -1653,6 +1654,7 @@ transition: 0.3s ease, color 0.3s ease;
 
 .hero-stats {
   justify-content: flex-start;
+  gap:14px;
 }
 
 .hero-stats-logo{
@@ -1661,12 +1663,12 @@ transition: 0.3s ease, color 0.3s ease;
 }
 
 .stats-heading{
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 900;
 }
 
 .stats-description{
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 700;
   width: 1.8rem;
 }
