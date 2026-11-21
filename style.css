@@ -47,7 +47,7 @@ body{
 
 .main-header{
   padding: 1.2rem 0;
-  height: fit-content;
+  height: 100vh;
     background-image:
     url('./images/desktop-background\ 3.PNG');
 
@@ -1114,6 +1114,7 @@ transition: 0.3s ease, color 0.3s ease;
 @media screen and (min-width: 800px) and (max-width: 1280px) {
 
   .main-header{
+    min-height: 100vh;
      background-image:
     linear-gradient(
       rgba(215, 219, 223, 0.2),
@@ -1168,9 +1169,6 @@ transition: 0.3s ease, color 0.3s ease;
     }
 
     .main-header {
-      
-    position: relative;
-    height: auto;
          background-position: 40% center;
     background-size: cover;
 
@@ -1195,7 +1193,7 @@ transition: 0.3s ease, color 0.3s ease;
     }
 
     .hero{
-      top: 50%;
+      top: 40%;
       position: relative;
       width: 100%;
       height: auto;
@@ -1244,7 +1242,7 @@ transition: 0.3s ease, color 0.3s ease;
         }
         .hero-stats{
           gap: 2.4;
-          margin-top: 76px;
+         
         }
 
         .stats-heading{
@@ -1603,7 +1601,7 @@ transition: 0.3s ease, color 0.3s ease;
 
 .hero {
   position: absolute;
-  top: 21%;
+  top: 18%;
   left: 5%;
   transform: none;
   width: 90%;
@@ -1645,7 +1643,7 @@ transition: 0.3s ease, color 0.3s ease;
   align-items: flex-start;
   gap: 1.2rem;
   margin-top: 1.4rem;
-  margin-bottom: 4.5rem;
+  margin-bottom: 3.2rem;
 }
   .hero-cta .btn {
   display: inline-flex;
@@ -1658,9 +1656,13 @@ transition: 0.3s ease, color 0.3s ease;
 }
 
 
+
 .hero-stats {
   justify-content: flex-start;
   gap:14px;
+}
+.stats{
+  gap: 0.8rem;
 }
 
 .hero-stats-logo{
@@ -1669,14 +1671,14 @@ transition: 0.3s ease, color 0.3s ease;
 }
 
 .stats-heading{
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   font-weight: 900;
 }
 
 .stats-description{
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 700;
-  width: 1.8rem;
+  width: 1.5rem;
 }
   
 
