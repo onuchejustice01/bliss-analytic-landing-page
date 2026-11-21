@@ -47,7 +47,7 @@ body{
 
 .main-header{
   padding: 1.2rem 0;
-  height: 100vh;
+  height: fit-content;
     background-image:
     url('./images/desktop-background\ 3.PNG');
 
@@ -1169,7 +1169,8 @@ transition: 0.3s ease, color 0.3s ease;
 
     .main-header {
       
-    
+    position: relative;
+    height: auto;
          background-position: 40% center;
     background-size: cover;
 
@@ -1195,6 +1196,9 @@ transition: 0.3s ease, color 0.3s ease;
 
     .hero{
       top: 50%;
+      position: relative;
+      width: 100%;
+      height: auto;
     }
 
     .hero-heading{
@@ -1240,6 +1244,7 @@ transition: 0.3s ease, color 0.3s ease;
         }
         .hero-stats{
           gap: 2.4;
+          margin-top: 76px;
         }
 
         .stats-heading{
