@@ -648,6 +648,11 @@ main{
   height: auto;
 }
 
+.rating-4-img{
+  width: 8.5rem;
+  height: auto;
+}
+
 .testimonial{
   font-size: 1.6rem;
   font-weight: 400;
