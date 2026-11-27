@@ -376,8 +376,9 @@
 
 
     <section class="section-pricing" data-aos="fade-up">
-      <div class="section-container">
-        <h2 class="pricing-main-heading">Pricing & <span class="registration">Registration</span></h2>
+      <div class="section-pricing-FAQ-container">
+        <div class="pricing-container">
+             <h2 class="pricing-main-heading">Pricing & <span class="registration">Registration</span></h2>
         <p class="pricing-subheading">Invest in your future. Learn a skill that pays.</p>
 
         <div class="pricing-card">
@@ -402,7 +403,81 @@
               <h1>&#8358;35,000</h1>
           </div>
         </div>
+        </div>
+
+         <div class="faq-box">
+            <span class="eyebrow">Frequently asked questions</span>
+            <h2 class="faq-main-heading">
+              Got Questions?<br>
+              <span class="highlight">We've got answers.</span>
+            </h2>
+            <div class="questions">
+              <div class="item">
+                   <p class="number">01</p>
+               <p class="text">How long does the bootcamp last?</p>
+
+               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
+  <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+</svg>
+
+<div class="hidden-box">
+  <p>
+      The Data Analysis with AI at Bliss Analytics runs for 12 weekends, with classes holding every saturday and sunday. 
+      Saturday sessions run from 10 AM to 2 PM WAT, while sunday sessions run from 2 PM to 4 PM WAT.
+  </p>
+
+</div>
+              </div>
+
+               <div class="item open">
+                   <p class="number">02</p>
+               <p class="text">Is the bootcamp suitable for beginners?</p>
+
+               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
+  <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+</svg>
+
+<div class="hidden-box">
+  <p>
+      Yes! The programme is designed to help learners develop practical data analysis skills, 
+      starting with raw data and progressing towards real-world applications. You will be guided 
+      through essential tools and techniques used in data analytics.
+  </p>
+
+</div>
+              </div>
+
+               <div class="item">
+                   <p class="number">03</p>
+               <p class="text">Will i recieve practical experience during the training?</p>
+
+               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
+  <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+</svg>
+
+<div class="hidden-box">
+  <p>
+      Absolutely! The Programme includes an internship opportunity and 15 industry-standard portfolio projects, giving you practical 
+      experience and projects you can showcase to demonstrate your data analytics skills.
+  </p>
+
+</div>
+              </div>
+
+
+
+              
+              
+              </div>
+
+
+              
+
+               
+            </div>
       </div>
+
+      
 
     </section>
 
@@ -563,6 +638,36 @@ menuToggle.addEventListener("click", () => {
     "aria-label",
     isOpen ? "Close navigation" : "Open navigation"
   );
+});
+
+
+// javascript toggle for the FAQ accordion component
+
+
+const items = document.querySelectorAll(".item");
+
+items.forEach(function (item) {
+
+  item.addEventListener("click", function (event) {
+
+    // Prevent clicks inside the answer from toggling the accordion
+    if (event.target.closest(".hidden-box")) return;
+
+    // Check if the clicked item is already open
+    const isOpen = item.classList.contains("open");
+
+    // Close all accordion items
+    items.forEach(function (item) {
+      item.classList.remove("open");
+    });
+
+    // Open the clicked item if it wasn't already open
+    if (!isOpen) {
+      item.classList.add("open");
+    }
+
+  });
+
 });
 </script>
 </body>
